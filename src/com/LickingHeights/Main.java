@@ -26,8 +26,8 @@ public class Main {
         int firstNumber, secondNumber, total;
         firstNumber = 5;
         secondNumber = 6;
-        total = firstNumber+secondNumber;
+        total = firstNumber + secondNumber;
+
+
     }
-
-
 }
