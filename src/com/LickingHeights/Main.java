@@ -12,8 +12,9 @@ public class Main {
            kg = inch *()
            inch = kg *()
         */
-        String heightInInches;
         String heightInFeet;
+        String heightInInches;
+        String total;
         Scanner keyboard;
 
         keyboard = new Scanner(System.in);
@@ -22,11 +23,13 @@ public class Main {
         System.out.println("What is your height remainder(only inches)?");
         heightInInches = keyboard.nextLine();
 
+        total = (heightInFeet *12)+heightInInches;
 
-        int firstNumber, secondNumber, total;
+
+        /*int firstNumber, secondNumber, total;
         firstNumber = 5;
         secondNumber = 6;
-        total = (firstNumber *12) + secondNumber;
+        total = (firstNumber *12) + secondNumber;*/
 
 
 
