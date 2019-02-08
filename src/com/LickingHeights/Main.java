@@ -19,14 +19,16 @@ public class Main {
         keyboard = new Scanner(System.in);
         System.out.println("What is your height (only feet)?");
         heightInFeet = keyboard.nextLine();
-        System.out.println("What is your height (only inches)?");
+        System.out.println("What is your height remainder(only inches)?");
         heightInInches = keyboard.nextLine();
 
 
         int firstNumber, secondNumber, total;
         firstNumber = 5;
         secondNumber = 6;
-        total = firstNumber + secondNumber;
+        total = (firstNumber *12) + secondNumber;
+
+
 
 
     }
