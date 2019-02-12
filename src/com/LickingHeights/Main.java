@@ -25,7 +25,7 @@ public class Main {
         System.out.println("What is your weight in pounds?");
         weightInPounds = keyboard.nextInt();
         bmi = (weightInPounds *703) /total;
-        System.out.println(bmi);
+        System.out.println("Your body mass index is " + bmi);
 
 
 
