@@ -15,6 +15,7 @@ public class Main {
         int heightInFeet;
         int heightInInches;
         int total;
+        int weightInPounds;
         Scanner keyboard;
 
         keyboard = new Scanner(System.in);
@@ -24,6 +25,9 @@ public class Main {
         heightInInches = keyboard.nextInt();
         total = (heightInFeet *12)+heightInInches;
         System.out.println("Sum of integers = " + total + " inches");
+        System.out.println("What is your weight in pounds?");
+        weightInPounds = keyboard.nextInt();
+
 
         /*
         * */
