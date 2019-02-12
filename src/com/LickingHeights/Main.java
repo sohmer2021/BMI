@@ -6,16 +6,13 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        /* BMI = km/m*m
-           m = inch *(0.0254/1)
-           inch = m*(1/0.0254)
-           kg = inch *()
-           inch = kg *()
+        /* BMI = weight (lbs) *703 / height
         */
         int heightInFeet;
         int heightInInches;
         int total;
         int weightInPounds;
+        int bmi;
         Scanner keyboard;
 
         keyboard = new Scanner(System.in);
@@ -27,6 +24,9 @@ public class Main {
         System.out.println("Sum of integers = " + total + " inches");
         System.out.println("What is your weight in pounds?");
         weightInPounds = keyboard.nextInt();
+        bmi = (weightInPounds *703) /total;
+        System.out.println(bmi);
+
 
 
         /*
