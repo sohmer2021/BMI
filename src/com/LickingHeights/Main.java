@@ -23,7 +23,10 @@ public class Main {
         System.out.println("What is your height remainder(only inches)?");
         heightInInches = keyboard.nextInt();
         total = (heightInFeet *12)+heightInInches;
-        total = keyboard.nextInt();
+        System.out.println("Sum of integers = " + total + " inches");
+
+        /*
+        * */
 
 
         /*int firstNumber, secondNumber, total;
